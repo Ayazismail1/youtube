@@ -1,0 +1,136 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 57px;
+    background-color: white;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 90px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(154, 151, 151, 0.287);
+
+}
+
+.searchbox{
+    padding-left: 12px;
+    font-size: 16px;
+    border: 1px;
+    border-color: rgba(0, 0, 0, 0.127);
+    border-style: solid;
+    width: 100%;
+    flex: 1;
+    height: 34px;
+
+    
+}
+.searchbox::placeholder{
+    font-family: Roboto, arial;
+    font-size: 16px;
+}
+.search-btn{
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.083);
+    background-color: rgba(255, 255, 255, 0.778);
+    margin-right: 15px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-left: -2px;
+
+
+}
+.voice-btn{
+    border: none;
+    border-radius: 100px;
+}
+.search-icon{
+    height: 27px;
+
+}
+.voice-icon{
+    height: 27px;
+}
+
+.leftside{
+    display: flex;
+    align-items: center;
+
+
+
+}
+.hamburger-menu{
+    margin-left: 24px;
+
+    height: 24px;
+
+}
+.hamburger-menu:active{
+    transform: rotate(90deg);
+}
+.youtube-logo{
+    margin-left: 26px;
+    height: 25px;
+    transition: all .2s ease;
+}
+.youtube-logo:hover{
+    transform: scale(1.2);
+}
+
+
+.rightside{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    
+}
+.notifications-img, .apps-img, .upload-img{
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+}
+.myprofile-img{
+    height: 33px;
+    border-radius: 60px;
+    margin-right: 20px;
+}
+.rightside-btn{
+    background-color: transparent;
+    border: none;
+    margin-right: 18px;
+}
+.middleside{
+    display: flex;
+
+    flex: 1;
+    max-width: 470px;
+    margin-left: 60px;
+    margin-right: 35px;
+    
+}
+.notification-div{
+    position: relative;
+
+}
+.notnum{
+    background-color: rgb(222, 3, 3);
+    position: absolute;
+    bottom: 4px;
+    left: 18px;
+    border-radius: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
+    font-size: 10px;
+}
